@@ -49,9 +49,9 @@
     <fieldset>
       <legend>Node.js in Action, Second Edition Errata</legend>
       <div id="intro">
-        <a href="booklink"><img id="cover" src="https://images.manning.com/720/960/resize/book/9/be0e700-8ac5-44b7-92fc-0a0d250969be/Cantelon-Node-2ed.png" width="150" height="188" alt="Node.js in Action Second Edition"></a>
+        <a href="https://www.manning.com/books/node-js-in-action-second-edition"><img id="cover" src="https://images.manning.com/720/960/resize/book/9/be0e700-8ac5-44b7-92fc-0a0d250969be/Cantelon-Node-2ed.png" width="150" height="188" alt="Node.js in Action Second Edition"></a>
         <p>Thank you for purchasing <a href="https://www.manning.com/books/node-js-in-action-second-edition" target="_blank"><i>Node.js in Action, Second Edition</i></a>. Please post any errors, other than those listed below, in the book's <a href="https://forums.manning.com/posts/list/41432.page" target="_blank">Author Online Forum</a>. We'll compile a comprehensive list and publish it here for everyone's convenience. Thank you!</p>
-        <p><i>Last updated 2017/11/01</i></p>
+        <p><i>Last updated 2017/11/02</i></p>
         <ul>
           <li>
             <h5>Page 102, Section 5.9</h5>
@@ -64,6 +64,23 @@
           <li>
             <h5>Page 119, Figure 6.6</h5>
             <p>The screenshot shows <code>jade</code> when it should show <code>pug</code>.</p>
+          </li>
+          <li>
+            <h5>Page 173, Snippet</h5>
+            <p>The snippet near the end of the page has a Pug <code>style</code> keyword that needs a fullstop to work correctly:</p>
+            <code>
+              <pre>
+  style.
+    h1 {
+      font-size: 6em;
+      color: #9DFF0C;
+    }
+              </pre>
+            </code>
+          </li>
+          <li>
+            <h5>Page 185, Listing 8.3</h5>
+            <p>The function is missing two arguments on line 16. It should be: <code>(err, result) => {</code></p>
           </li>
         </ul>
       </div>

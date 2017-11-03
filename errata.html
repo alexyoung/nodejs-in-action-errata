@@ -54,6 +54,16 @@
         <p><i>Last updated 2017/11/02</i></p>
         <ul>
           <li>
+            <h5>Page 52, Snippet under 'A simple server'</h5>
+            <p>The anonymous function at the end of the listing is missing an opening curly brace and a closing bracket. It should read:</p>
+            <code>
+              <pre>
+  app.listen(port, () => {
+    console.log(`Express web app available at localhost: ${port}`);
+  });</pre>
+            </code>
+          </li>    
+          <li>
             <h5>Page 102, Section 5.9</h5>
             <p>Loopback has changed since the time of publishing. If you're using Loopback 3.0, install <code>loopback-cli</code> with npm instead of the <code>strongloop</code> package. The <code>lb</code> tool is now known as <code>slc</code>.</p>
           </li>
@@ -74,8 +84,7 @@
     h1 {
       font-size: 6em;
       color: #9DFF0C;
-    }
-              </pre>
+    }</pre>
             </code>
           </li>
           <li>
